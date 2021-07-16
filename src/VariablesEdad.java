@@ -10,8 +10,12 @@ public class VariablesEdad {
 		
 		System.out.println(edad);
 		
+		System.out.println("hola la edad es:");
+
 		edad=25;
 		System.out.println(edad);
+
+		
 
 	}
 
