@@ -9,7 +9,9 @@ public class AdivinaNumero {
 		 int numero=0;
 		 int intentos=0;
 		 
-		 while (numero!= aleatorio) {
+		 //while
+		 
+		 /*while (numero!= aleatorio) {
 			 intentos ++;
 			 System.out.println("Introduce un numero");
 			 numero = entrada.nextInt();
@@ -24,7 +26,27 @@ public class AdivinaNumero {
 			 }
 
 			 
-		 }
+		 }*/
+		 
+		 //do while
+		 do{
+			 intentos ++;
+			 System.out.println("Introduce un numero");
+			 numero = entrada.nextInt();
+			 
+			 if(aleatorio<numero) {
+				 System.out.println("Mas bajo");
+
+			 }
+			 else if(aleatorio>numero) {
+				 System.out.println("Mas alto");
+
+			 }
+
+			 
+		 } while (numero!= aleatorio);
+		 
+		 
 		 System.out.println("Correcto lo has conseguido en " + intentos + " intentos");
 
 
